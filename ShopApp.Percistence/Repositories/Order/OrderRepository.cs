@@ -24,7 +24,7 @@ namespace ShopApp.Percistence.Repositories.Order
         public async Task<OperationResult<OrderModel>> CreateOrderAsync(OrderModel model)
         {
             OperationResult<OrderModel> result = new OperationResult<OrderModel>();
-
+             
             try
             {
                 _logger.LogInformation($"Creando una Orden");

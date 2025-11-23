@@ -23,7 +23,7 @@ namespace ShopApp.Domain.Entity.Configurations
             entity.Property(e => e.CreationUser)
                 .HasDefaultValue(1)
                 .HasColumnName("creation_user");
-            entity.Property(e => e.DeleteDate).HasColumnName("delete_date");
+            entity.Property(e => e.DeleteDate).HasColumnName("delete_date"); 
             entity.Property(e => e.DeleteUser).HasColumnName("delete_user");
             entity.Property(e => e.Deleted).HasColumnName("deleted");
             entity.Property(e => e.ModifyDate)

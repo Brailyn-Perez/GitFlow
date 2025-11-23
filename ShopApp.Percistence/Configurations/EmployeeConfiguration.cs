@@ -18,7 +18,7 @@ namespace ShopApp.Domain.Entity.Configurations
             entity.Property(e => e.Birthdate)
                 .HasColumnType("datetime")
                 .HasColumnName("birthdate");
-            entity.Property(e => e.City)
+            entity.Property(e => e.City) 
                 .IsRequired()
                 .HasMaxLength(15)
                 .HasColumnName("city");

@@ -24,7 +24,7 @@ namespace ShopApp.Percistence.Repositories.Shippers
         }
         public async Task<OperationResult<ShippersCreateModel>> CreateShippersAsync(ShippersCreateModel model)
         {
-            OperationResult<ShippersCreateModel> result = new OperationResult<ShippersCreateModel>();
+            OperationResult<ShippersCreateModel> result = new OperationResult<ShippersCreateModel>(); 
 
             try
             {

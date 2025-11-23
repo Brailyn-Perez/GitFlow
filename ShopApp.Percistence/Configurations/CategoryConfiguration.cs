@@ -11,7 +11,7 @@ namespace ShopApp.Domain.Entity.Configurations
             entity.Property(e => e.Categoryid).HasColumnName("categoryid");
             entity.Property(e => e.Categoryname)
                 .IsRequired()
-                .HasMaxLength(15)
+                .HasMaxLength(15) 
                 .HasColumnName("categoryname");
             entity.Property(e => e.CreationDate)
                 .HasDefaultValueSql("(getdate())")

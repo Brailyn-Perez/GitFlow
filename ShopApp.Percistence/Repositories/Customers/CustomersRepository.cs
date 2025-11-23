@@ -28,7 +28,7 @@ namespace ShopApp.Percistence.Repositories.Customers
                 _logger.LogInformation($"Creando una cliente:");
 
                 using (var connection = new SqlConnection(_connectionString))
-                {
+                { 
                     using (var command = new SqlCommand("SP_AgregarCustomer", connection))
                     {
                         command.CommandType = System.Data.CommandType.StoredProcedure;

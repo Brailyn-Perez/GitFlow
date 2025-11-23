@@ -24,7 +24,7 @@ namespace ShopApp.Percistence.Repositories.Employees
         public async Task<OperationResult<EmployeesCreateModel>> CreateEmployeesAsync(EmployeesCreateModel model)
         {
             OperationResult<EmployeesCreateModel> result = new OperationResult<EmployeesCreateModel>();
-
+             
             try
             {
                 _logger.LogInformation($"Creando un Empleado");
