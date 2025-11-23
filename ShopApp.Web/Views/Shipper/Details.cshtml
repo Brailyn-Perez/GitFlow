@@ -1,0 +1,78 @@
+﻿@model ShopApp.Domain.Models.Shippers.ShippersGetModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ShippersGetModel</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.creation_date)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.creation_date)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.creation_user)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.creation_user)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.shipperid)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.shipperid)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.phone)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.phone)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.address)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.address)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.city)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.city)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.region)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.region)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.postalcode)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.postalcode)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.country)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.country)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new {  id = Model.shipperid }) |
+    <a asp-action="Index">Back to List</a>
+</div>

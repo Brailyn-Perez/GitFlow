@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ShopApp.Domain.Models.OrderDetails.OrderDetailsBaseModel.OrderDetailsModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.unitprice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.qty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.discount)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.unitprice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.qty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.discount)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.orderid  }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.orderid  }) |
+                @Html.ActionLink("Desactivate", "Desactivate", new {  id=item.orderid  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
