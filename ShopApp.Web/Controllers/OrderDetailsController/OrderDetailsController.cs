@@ -27,7 +27,7 @@ namespace ShopApp.Web.Controllers.OrderDetailsController
             return View(result.Data);
         }
 
-        // GET: OrderDetailsController/Details/5
+        // GET: OrderDetailsController/Details/5 
         public async Task<ActionResult> Details(int id)
         {
             var result = await _orderDetailsService.GetOrderDetailsByIdAsync(id);

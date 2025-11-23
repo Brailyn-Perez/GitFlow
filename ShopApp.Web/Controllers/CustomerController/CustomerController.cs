@@ -18,7 +18,7 @@ namespace ShopApp.Web.Controllers.CustomerController
             var result = await _customerService.GetAllCustmersAsync();
 
             if (!result.IsSucces)
-            {
+            { 
                 ViewBag.Error = result.Message;
                 return View();
             }
