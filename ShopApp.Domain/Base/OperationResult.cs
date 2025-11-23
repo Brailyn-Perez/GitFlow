@@ -22,7 +22,7 @@ namespace ShopApp.Domain.Base
         {
             return new OperationResult<TModel>(true, message, data);
         }
-
+         
         public static OperationResult<TModel> Failure(string message) 
         {
             return new OperationResult<TModel> (false, message);

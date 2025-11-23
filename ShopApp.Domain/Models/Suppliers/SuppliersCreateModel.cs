@@ -9,3 +9,4 @@ namespace ShopApp.Domain.Models.Suppliers
         public int creartion_user { get; set; }
     }
 }
+ 

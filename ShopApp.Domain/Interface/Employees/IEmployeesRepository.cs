@@ -13,3 +13,4 @@ namespace ShopApp.Domain.Interface.Employees
         Task<OperationResult<EmployeesUpdateModel>> UpdateEmployees(EmployeesUpdateModel model);
     }
 }
+ 

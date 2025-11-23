@@ -7,3 +7,4 @@ namespace ShopApp.Domain.Models.Shippers
         public int creation_user { get; set; }
     }
 }
+ 

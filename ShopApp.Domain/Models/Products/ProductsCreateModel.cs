@@ -9,3 +9,4 @@ namespace ShopApp.Domain.Models.Products
         public int creation_user { get; set; }
     }
 }
+ 

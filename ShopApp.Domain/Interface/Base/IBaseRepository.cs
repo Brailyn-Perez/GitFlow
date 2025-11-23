@@ -11,3 +11,4 @@ namespace ShopApp.Domain.Interface.Base
         Task<OperationResult<TModel>> UpdateAsync(TModel model);
     }
 }
+ 
