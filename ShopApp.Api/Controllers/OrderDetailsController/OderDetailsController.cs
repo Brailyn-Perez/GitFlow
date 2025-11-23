@@ -22,7 +22,7 @@ namespace ShopApp.pressent.Controllers.OrderDetailsController
 
             if (!result.IsSucces)
                 return BadRequest(result);
-
+             
 
             return Ok(result);
         }

@@ -25,7 +25,7 @@ namespace ShopApp.pressent.Controllers.ShippersController
 
 
             return Ok(result);
-        }
+        } 
 
         // GET api/<ShippersController>/5
         [HttpGet("GetShippersById")]
