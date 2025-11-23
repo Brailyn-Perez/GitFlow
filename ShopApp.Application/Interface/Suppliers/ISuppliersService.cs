@@ -12,3 +12,4 @@ namespace ShopApp.Application.Interface.Suppliers
         Task<OperationResult<SuppliersUpdateModel>> UpdateSupplier(SuppliersUpdateModel model);
     }
 }
+ 

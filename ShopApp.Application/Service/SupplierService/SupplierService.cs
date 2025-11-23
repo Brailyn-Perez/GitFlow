@@ -37,5 +37,5 @@ namespace ShopApp.Application.Service.SupplierService
         {
             return await _suppliersRepository.UpdateSupplier(model);
         }
-    }
+    } 
 }
