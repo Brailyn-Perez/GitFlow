@@ -26,7 +26,7 @@ namespace ShopApp.pressent.Controllers.CustomerController
 
             return Ok(result);
 
-        }
+        } 
 
         // GET api/<CustomerController>/5
         [HttpGet("GetCustomerById")]
