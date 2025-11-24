@@ -12,3 +12,4 @@ namespace ShopApp.Application.Interface.OrderDetails
         Task<OperationResult<OrderDetailsModel>> UpdateOrderDetails(OrderDetailsModel model);
     }
 }
+ 
