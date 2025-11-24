@@ -24,7 +24,7 @@ namespace ShopApp.Domain.Entity.Configurations
             entity.Property(e => e.Contactname)
                 .IsRequired()
                 .HasMaxLength(30)
-                .HasColumnName("contactname");
+                .HasColumnName("contactname"); 
             entity.Property(e => e.Contacttitle)
                 .IsRequired()
                 .HasMaxLength(30)

@@ -24,7 +24,7 @@ namespace ShopApp.Domain.Entity.Configurations
 
             OnConfigurePartial(entity);
         }
-
+         
         partial void OnConfigurePartial(EntityTypeBuilder<OrderDetail> entity);
     }
 }
