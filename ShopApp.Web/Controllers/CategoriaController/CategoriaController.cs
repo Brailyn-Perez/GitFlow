@@ -11,7 +11,7 @@ namespace ShopApp.Web.Controllers.CategoriaController
         public CategoriaController(ICategoriaService categoriaService)
         {
             _categoriaService = categoriaService;
-        }
+        } 
 
         // GET: CategoriaController
         public async Task<ActionResult> Index()

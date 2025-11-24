@@ -20,7 +20,7 @@ namespace ShopApp.Web.Controllers.EmployeesController
 
             if (!result.IsSucces)
             {
-                ViewBag.Error = result.Message;
+                ViewBag.Error = result.Message; 
                 return View();
             }
 

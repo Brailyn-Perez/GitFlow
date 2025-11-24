@@ -29,7 +29,7 @@ namespace ShopApp.Web.Controllers.ShipperController
         // GET: ShippersController/Details/5
         public async Task<ActionResult> Details(int id)
         {
-            var result = await _shippersService.GetShippersByIdAsync(id);
+            var result = await _shippersService.GetShippersByIdAsync(id); 
 
             if (!result.IsSucces)
             {
