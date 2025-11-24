@@ -24,7 +24,7 @@ namespace ShopApp.Percistence.Repositories.Products
 
             try
             {
-                _logger.LogInformation($"Creando un producto");
+                _logger.LogInformation($"Creando un producto"); 
 
                 using (var connection = new SqlConnection(_connectionString))
                 {
