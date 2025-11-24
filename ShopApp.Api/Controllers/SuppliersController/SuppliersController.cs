@@ -23,7 +23,7 @@ namespace ShopApp.pressent.Controllers.SupplierController
             if (!result.IsSucces)
                 return BadRequest(result);
 
-
+             
             return Ok(result);
         }
 

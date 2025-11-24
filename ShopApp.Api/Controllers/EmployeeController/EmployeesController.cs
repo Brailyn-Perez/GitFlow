@@ -23,7 +23,7 @@ namespace ShopApp.pressent.Controllers.EmployeeController
             if (!result.IsSucces)
                 return BadRequest(result);
 
-
+             
             return Ok(result);
         }
 

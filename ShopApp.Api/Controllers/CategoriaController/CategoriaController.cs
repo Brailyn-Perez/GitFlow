@@ -25,7 +25,7 @@ namespace ShopApp.pressent.Controllers.CategoriaController
 
 
             return Ok(result);
-
+             
         }
 
         // GET api/<CategoriaController>/5

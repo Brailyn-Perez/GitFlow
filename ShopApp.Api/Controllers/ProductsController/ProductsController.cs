@@ -26,7 +26,7 @@ namespace ShopApp.pressent.Controllers.ProductsController
 
             return Ok(result);
         }
-
+         
         // GET api/<ProductsController>/5
         [HttpGet("GetProductsById")]
         public async Task<IActionResult> GetById(int id)
