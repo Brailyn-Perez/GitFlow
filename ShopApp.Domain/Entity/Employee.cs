@@ -35,4 +35,4 @@ namespace ShopApp.Domain.Entity
 
     }
 }
-
+ 

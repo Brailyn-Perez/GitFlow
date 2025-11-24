@@ -20,3 +20,4 @@ namespace ShopApp.Domain.Models.Employees.EmployeesBaseModel
         public int? mgrid { get; set; }
     }
 }
+ 

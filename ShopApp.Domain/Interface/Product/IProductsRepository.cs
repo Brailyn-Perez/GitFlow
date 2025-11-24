@@ -12,3 +12,4 @@ namespace ShopApp.Domain.Interface.Product
         Task<OperationResult<ProductsUpdateModel>> UpdateProducts(ProductsUpdateModel model);
     }
 }
+ 
