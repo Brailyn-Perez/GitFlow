@@ -17,3 +17,4 @@ namespace ShopApp.Domain.Models.Suppliers.SuppliersBaseModel
         public string fax { get; set; }
     }
 }
+ 

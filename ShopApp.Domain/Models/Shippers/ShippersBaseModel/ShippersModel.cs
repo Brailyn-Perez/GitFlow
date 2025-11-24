@@ -14,3 +14,4 @@ namespace ShopApp.Domain.Models.Shippers.ShippersBaseModel
         public string country { get; set; }
     }
 }
+ 

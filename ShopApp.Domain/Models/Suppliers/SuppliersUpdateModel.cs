@@ -8,3 +8,4 @@ namespace ShopApp.Domain.Models.Suppliers
         public int modify_user { get; set; }
     }
 }
+ 

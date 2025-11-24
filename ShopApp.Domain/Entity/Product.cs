@@ -20,3 +20,4 @@ namespace ShopApp.Domain.Entity
     }
 }
 
+ 

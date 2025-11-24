@@ -12,7 +12,7 @@ namespace ShopApp.Domain.Entity.BaseEntity
 
         public int? ModifyUser { get; set; }
 
-        public int? DeleteUser { get; set; }
+        public int? DeleteUser { get; set; } 
 
         public DateTime? DeleteDate { get; set; }
 

@@ -20,3 +20,4 @@ namespace ShopApp.Domain.Models.Order.OrderBaseModel
         public string shipcountry { get; set; }
     }
 }
+ 

@@ -10,3 +10,4 @@ namespace ShopApp.Domain.Models.Categoria
         public int creation_user { get; set; }
     }
 }
+ 

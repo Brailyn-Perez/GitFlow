@@ -12,3 +12,4 @@ namespace ShopApp.Domain.Models.Products.ProductsBaseModel
         public bool discontinued { get; set; }
     }
 }
+ 

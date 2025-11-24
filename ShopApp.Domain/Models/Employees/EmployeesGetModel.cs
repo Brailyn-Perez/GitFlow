@@ -10,3 +10,4 @@ namespace ShopApp.Domain.Models.Employees
         public int creation_user { get; set; }
     }
 }
+ 

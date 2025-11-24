@@ -9,3 +9,4 @@ namespace ShopApp.Domain.Models.Suppliers
         public int delete_user { get; set; }
     }
 }
+ 
