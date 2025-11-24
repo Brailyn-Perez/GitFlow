@@ -23,7 +23,7 @@ namespace ShopApp.Web.Controllers.ProductsController
                 ViewBag.Error = result.Message;
                 return View();
             }
-
+             
             return View(result.Data);
         }
 

@@ -32,7 +32,7 @@ namespace ShopApp.Web.Controllers.OrderController
             var result = await _orderService.GetOrderByIdAsync(id);
 
             if (!result.IsSucces)
-            {
+            { 
                 ViewBag.Error = result.Message;
                 return View();
             }
