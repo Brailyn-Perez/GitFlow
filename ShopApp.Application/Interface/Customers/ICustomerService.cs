@@ -12,3 +12,4 @@ namespace ShopApp.Application.Interface.Customers
         Task<OperationResult<CustomersUpdateModel>> UpdateCustmersAsync(CustomersUpdateModel model);
     }
 }
+ 

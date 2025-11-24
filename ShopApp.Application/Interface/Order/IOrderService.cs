@@ -14,3 +14,4 @@ namespace ShopApp.Application.Interface.Order
         Task<OperationResult<OrderModel>> UpdateOrder(OrderModel model);
     }
 }
+ 

@@ -12,3 +12,4 @@ namespace ShopApp.Application.Interface.Shippers
         Task<OperationResult<ShippersUpdateModel>> UpdateShippers(ShippersUpdateModel model);
     }
 }
+ 
