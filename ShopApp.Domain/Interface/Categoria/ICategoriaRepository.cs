@@ -12,3 +12,4 @@ namespace ShopApp.Domain.Interface.Categoria
         Task<OperationResult<CategoriaUpdateModel>> UpdateCategoria(CategoriaUpdateModel model);
     }
 }
+ 

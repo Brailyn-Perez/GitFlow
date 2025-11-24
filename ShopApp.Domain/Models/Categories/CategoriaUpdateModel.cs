@@ -9,3 +9,4 @@ namespace ShopApp.Domain.Models.Categoria
         public int modify_user { get; set; }
     }
 }
+ 

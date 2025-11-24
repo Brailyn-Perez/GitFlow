@@ -18,3 +18,4 @@ namespace ShopApp.Domain.Models.Customers.CustomersBaseModel
         public string fax { get; set; }
     }
 }
+ 

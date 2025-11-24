@@ -12,5 +12,5 @@ namespace ShopApp.Domain.Entity
 
 
     }
-}
+} 
 

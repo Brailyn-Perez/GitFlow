@@ -11,3 +11,4 @@ namespace ShopApp.Domain.Models.OrderDetails.OrderDetailsBaseModel
         public decimal discount { get; set; }
     }
 }
+ 
