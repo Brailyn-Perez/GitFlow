@@ -18,7 +18,7 @@ namespace ShopApp.Percistence.Repositories.Base
             _configuration = configuration;
             _logger = logger;
             _connectionString = _configuration.GetConnectionString("StringConection");
-        }
+        } 
         public Task<OperationResult<TModel>> CreateAsync(TModel model)
         {
             throw new NotImplementedException();

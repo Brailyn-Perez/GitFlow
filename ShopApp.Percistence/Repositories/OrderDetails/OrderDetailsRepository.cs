@@ -22,7 +22,7 @@ namespace ShopApp.Percistence.Repositories.OrderDetails
         public async Task<OperationResult<OrderDetailsModel>> CreateOrderDetailsAsync(OrderDetailsModel model)
         {
             OperationResult<OrderDetailsModel> result = new OperationResult<OrderDetailsModel>();
-
+             
             try
             {
                 _logger.LogInformation($"Creando detalles de una orden");

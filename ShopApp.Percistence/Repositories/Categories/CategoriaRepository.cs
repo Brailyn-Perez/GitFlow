@@ -25,7 +25,7 @@ namespace ShopApp.Percistence.Repositories.Categoria
         {
 
             OperationResult<CategoriaCreateModel> result = new OperationResult<CategoriaCreateModel>();
-
+             
             try
             {
                 _logger.LogInformation($"Creando una Categoria");

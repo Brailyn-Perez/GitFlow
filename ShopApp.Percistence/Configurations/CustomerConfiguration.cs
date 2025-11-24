@@ -16,7 +16,7 @@ namespace ShopApp.Domain.Entity.Configurations
                 .HasMaxLength(60)
                 .HasColumnName("address");
             entity.Property(e => e.City)
-                .IsRequired()
+                .IsRequired() 
                 .HasMaxLength(15)
                 .HasColumnName("city");
             entity.Property(e => e.Companyname)

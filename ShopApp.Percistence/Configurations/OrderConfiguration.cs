@@ -21,7 +21,7 @@ namespace ShopApp.Domain.Entity.Configurations
                 .HasColumnType("datetime")
                 .HasColumnName("requireddate");
             entity.Property(e => e.Shipaddress)
-                .IsRequired()
+                .IsRequired() 
                 .HasMaxLength(60)
                 .HasColumnName("shipaddress");
             entity.Property(e => e.Shipcity)
